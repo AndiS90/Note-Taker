@@ -71,7 +71,7 @@ app.get('*', (req, res) =>
 
 
 
-//       res.json(`note added successfully 🚀`);
+//       res.json(`note added successfully `);
       
 //       //return newNote;
 //     } else {
@@ -110,7 +110,7 @@ app.get('*', (req, res) =>
 //       writeToFile('./db/notes.json', result);
 
 //       // Respond to the DELETE request
-//       res.json(`Item ${noteId} has been deleted 🗑️`);
+//       res.json(`Item ${noteId} has been deleted `);
 //     });
 // });
 

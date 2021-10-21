@@ -73,7 +73,7 @@ notes.get('/', (req, res) => {
   notes.delete('/:id', (req, res) => {
     const noteId = req.params.id;
 
-    console.log(id);
+    console.log(noteId);
 
     readFromFile('./db/db.json')
       .then((data) => JSON.parse(data))
