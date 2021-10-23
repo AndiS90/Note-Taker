@@ -1,4 +1,5 @@
 // Custom middleware that logs out the type and path of each request to the server
+// also used from previous class activities for troubleshooting purposes
 const clog = (req, res, next) => {
   const fgCyan = '\x1b[36m';
   switch (req.method) {
