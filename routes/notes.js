@@ -1,8 +1,6 @@
 const notes = require('express').Router();
-
-//npm installed for random id purposes
 const { nanoid } = require('nanoid');
-
+const notesFile = require('../db/db.json');
 const {
   readFromFile,
   readAndAppend,
@@ -55,7 +53,19 @@ notes.get('/', (req, res) => {
 
 
 
-
+// GET Route for a specific note 
+// eventally to pull to front, select out of list
+// notes.get('/:note_id', (req, res) => {
+//     const noteId = req.params.note_id;
+//     readFromFile('./db/db.json')
+//       .then((data) => JSON.parse(data))
+//       .then((json) => {
+//         const result = json.filter((note) => notes.note_id === noteId);
+//         return result.length > 0 ?
+//           res.json(result) :
+//           res.json('No note with that ID');
+//       });
+//   });
 
   
   // DELETE Route for a specific note
@@ -74,7 +84,7 @@ notes.get('/', (req, res) => {
         writeToFile('./db/db.json', result);
   
         // Respond to the DELETE request
-         res.json(`Item ${noteId} has been deleted 🗑️`);
+        res.json(`Item ${noteId} has been deleted 🗑️`);
       });
   });
 
