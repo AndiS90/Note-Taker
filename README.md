@@ -25,9 +25,9 @@ Writing this code required a fundamental knowledge of Node.js, the file system m
   ## <span id="installation"> Installation: </span>
   <br>
 
-    Click the following link to deploy:
-
-    [Note Taker](https://shielded-shelf-65590.herokuapp.com/)
+   Click the following link to deploy:
+   
+   [Note Taker](https://shielded-shelf-65590.herokuapp.com/)
 
   <br>
   
