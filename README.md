@@ -36,7 +36,7 @@ Writing this code required a fundamental knowledge of Node.js, the file system m
   
   -Follow the link in the landing page. 
   
-  -enter a new note title and expansion text on the right.
+  -Enter a new note title and expansion text on the right.
   
   -Click the save icon at the top right.
   
