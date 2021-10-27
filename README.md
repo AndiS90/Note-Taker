@@ -11,10 +11,6 @@ An application that can be used to write and save notes involving an express.js 
 Writing this code required a fundamental knowledge of Node.js, the file system module, and Express.js
 
 
-![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./Assets/11-express-homework-demo-01.png)
-
-![Note titled “Balance accounts” reads, “Balance account books by end of day Monday,” with other notes listed on the left.](./Assets/11-express-homework-demo-02.png)
-
 
 ## Table of Contents
   
@@ -48,6 +44,11 @@ Writing this code required a fundamental knowledge of Node.js, the file system m
   -Watch as your saved notes reappear with their titles to the left.
   
   -Click on a note title to reaccess it's interior text or delete by hitting the trashcan icon.
+  
+  
+![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./Assets/11-express-homework-demo-01.png)
+
+![Note titled “Balance accounts” reads, “Balance account books by end of day Monday,” with other notes listed on the left.](./Assets/11-express-homework-demo-02.png)
 
   <br>  
   
