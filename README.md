@@ -27,7 +27,7 @@ Writing this code required a fundamental knowledge of Node.js, the file system m
 
     Click the following link to deploy:
 
-    [Note Taker]()
+    [Note Taker](https://shielded-shelf-65590.herokuapp.com/)
 
   <br>
   
@@ -35,9 +35,13 @@ Writing this code required a fundamental knowledge of Node.js, the file system m
   <br>
   
   -Follow the link in the landing page. 
+  
   -enter a new note title and expansion text on the right.
+  
   -Click the save icon at the top right.
+  
   -Watch as your saved notes reappear with their titles to the left.
+  
   -Click on a note title to reaccess it's interior text or delete by hitting the trashcan icon.
 
   <br>  
