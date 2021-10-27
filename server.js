@@ -1,5 +1,7 @@
 const express = require('express');
 const path = require('path');
+
+//using custom middleware from class to make troubleshooting easier
 const { clog } = require('./middleware/clog');
 
 //require router index
